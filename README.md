@@ -148,11 +148,14 @@ class BitByteTribe:
 
 | Project | Description | Stack |
 |:--------|:-----------|:------|
-| 🤖 **Agentic SOC Framework** | Multi-agent architecture for autonomous threat triage, investigation & response | Azure AI, MCP, Python |
-| 🔍 **KQL Detection Library** | Community-sourced detection rules & advanced hunting queries | KQL, Sentinel |
-| 🔌 **MCP Security Servers** | Model Context Protocol servers for Sentinel & Defender integration | TypeScript, Python |
-| 🛡️ **Threat Hunt Playbooks** | Structured hunting hypotheses with KQL implementations | KQL, MITRE ATT&CK |
-| ✍️ **BitByteTribe Blog** | Writeups on detection engineering, agentic AI, and security architecture | Markdown |
+| 🤖 **AITriageAgent** | Autonomous threat triage agent that investigates & prioritises security alerts | Python, Azure AI Foundry |
+| 🧠 **Engram** | 3-tier memory system for AI agents — working, episodic & semantic recall | Python |
+| 🔭 **AgentTrace** | Cross-agent observability with OpenTelemetry-compatible tracing & cost attribution | Python |
+| 🐝 **SwarmOS** | Multi-agent orchestration supporting hierarchical, pipeline & peer-to-peer topologies | Python |
+| 🖥️ **claudeswarm** | Visual command center for coordinating Claude Code agent teams | TypeScript, Turborepo |
+| 🐦 **x-agent-stack** | 5-agent team that autonomously manages X (Twitter) strategy, content & engagement | TypeScript, OpenClaw |
+| 🗣️ **Jarvis** | Real-time voice assistant with low-latency speech-to-speech conversation | Python, Claude API, LiveKit |
+| 📄 **md2pdf** | Markdown-to-PDF converter with dual rendering engines (Typst + WeasyPrint) | Python |
 
 ---
 
