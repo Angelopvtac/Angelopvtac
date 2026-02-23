@@ -9,7 +9,7 @@
 ╚═════╝ ╚═╝   ╚═╝   ╚═════╝    ╚═╝      ╚═╝   ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═════╝ ╚══════╝
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%24+whoami;Cybersecurity+Architect+%7C+Agentic+AI+Builder+%7C+Threat+Hunter" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=835&height=100&lines=%24+whoami;Cybersecurity+Architect+%7C+Agentic+AI+Builder+%7C+Threat+Hunter" alt="Typing SVG" />
 
 <br/>
 
@@ -107,21 +107,36 @@ class BitByteTribe:
 
 **`// LANGUAGES & SCRIPTING`**
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![KQL](https://img.shields.io/badge/KQL-0078D4?style=flat-square&logo=azure-data-explorer&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+
+**`// FRAMEWORKS & LIBRARIES`**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
 
 **`// AI & AGENTIC`**
 
-![Azure AI Foundry](https://img.shields.io/badge/Azure_AI_Foundry-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![MCP](https://img.shields.io/badge/Model_Context_Protocol-000000?style=flat-square&logo=anthropic&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D4A574?style=flat-square&logo=anthropic&logoColor=white)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-000000?style=flat-square&logo=anthropic&logoColor=white)
+![Azure AI Foundry](https://img.shields.io/badge/Azure_AI_Foundry-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
 
-**`// PLATFORMS & TOOLS`**
+**`// PLATFORMS & INFRA`**
 
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 
@@ -151,24 +166,33 @@ class BitByteTribe:
 ## `> THREAT_DOMAINS.map`
 
 ```
-                    ┌─────────────────────┐
-                    │   ATTACK SURFACE    │
-                    └────────┬────────────┘
-                             │
-          ┌──────────────────┼──────────────────┐
-          │                  │                  │
-   ┌──────▼──────┐   ┌──────▼──────┐   ┌──────▼──────┐
-   │   IDENTITY  │   │   ENDPOINT  │   │    CLOUD    │
-   │   & ACCESS  │   │  & DEVICE   │   │  & HYBRID   │
-   └──────┬──────┘   └──────┬──────┘   └──────┬──────┘
-          │                  │                  │
-          └──────────────────┼──────────────────┘
-                             │
-                    ┌────────▼────────────┐
-                    │  DETECTION ENGINE   │
-                    │  KQL │ ANALYTICS │  │
-                    │  AGENTS │ RESPONSE  │
-                    └─────────────────────┘
+  ┌───────────────────────────────────────────────────────────┐
+  │                      ATTACK SURFACE                       │
+  │                                                           │
+  │    IDENTITY          ENDPOINT          CLOUD & HYBRID     │
+  │   ┌──────────┐     ┌──────────┐     ┌──────────────┐     │
+  │   │ Entra ID │     │ Defender │     │ Azure / M365 │     │
+  │   │ Cond Acc │     │   XDR    │     │   Sentinel   │     │
+  │   │ PIM/ PAM │     │  Intune  │     │Log Analytics │     │
+  │   └─────┬────┘     └────┬─────┘     └──────┬───────┘     │
+  └─────────┼────────────────┼──────────────────┼─────────────┘
+            └────────────────┼──────────────────┘
+                             ▼
+  ┌───────────────────────────────────────────────────────────┐
+  │                    DETECTION ENGINE                       │
+  │                                                           │
+  │    KQL Analytics Rules     ·   Custom Detection Logic     │
+  │    Threat Intelligence     ·   Behavioral Analytics       │
+  │    MITRE ATT&CK Mapping   ·   Anomaly Detection          │
+  └──────────────────────────┬────────────────────────────────┘
+                             ▼
+  ┌───────────────────────────────────────────────────────────┐
+  │                    AGENTIC RESPONSE                       │
+  │                                                           │
+  │    AI Triage Agents        ·   Auto-Investigation         │
+  │    Threat Scoring          ·   Playbook Execution         │
+  │    MCP Tool Integration    ·   Autonomous Containment     │
+  └───────────────────────────────────────────────────────────┘
 ```
 
 ---
