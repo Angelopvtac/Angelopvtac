@@ -201,7 +201,7 @@ class BitByteTribe:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Angelopvtac&show_icons=true&count_private=true&include_all_commits=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=C9D1D9&ring_color=00FF41" alt="GitHub Stats" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Angelopvtac&show_icons=true&count_private=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=C9D1D9&ring_color=00FF41" alt="GitHub Stats" height="165"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Angelopvtac&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41" alt="GitHub Streak" height="165"/>
 
 <br/>
